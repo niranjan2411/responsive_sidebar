@@ -1,12 +1,11 @@
 # 💻 Responsive Sidebar Layout
 
-A basic, responsive web layout featuring a dynamic sidebar menu and a main content area. This template is designed to be mobile-friendly, with the sidebar collapsing into a hamburger menu on smaller screens.
+A basic, responsive web layout featuring a dynamic sidebar menu and a main content area. This template is designed to be mobile-friendly as well as desktop, with the sidebar collapsing into a hamburger menu on smaller screens.
 
 ## ✨ Live Preview
 
 You can see a live demonstration of this project here:
 [**View Demo**](https://your-username.github.io/your-repository-name/index.html)
-*(Note: Replace the placeholder link above with the actual GitHub Pages or other hosting link once deployed)*
 
 ***
 
@@ -31,3 +30,7 @@ You can see a live demonstration of this project here:
 ## 📁 Project Structure
 
 The project is organized into the following files:
+responsive_sidebar/
+├── index.html        # Main HTML file for the structure
+├── style.css         # CSS file for styling and responsiveness
+└── script.js         # JavaScript file for functionality
