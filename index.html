@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Sidebar Layout</title>
+  <link rel="stylesheet" href="responsive_sideba/style.css">
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+        <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+        <nav class="navbar">
+            <a href="#" class="nav-link active">Download our Application</a>
+            <a href="#" class="nav-link">Cart</a>
+            <a href="#" class="nav-link">Services</a>
+        </nav>
+        <button class="login-btn">Login</button>
+      </header>
+      
+  
+      <div class="container">
+        <nav id="sidebar">
+          <ul>
+            <li class="active-tab" onclick="showContent('home', this)">Home</li>
+            <li onclick="showContent('about', this)">About</li>
+            <li onclick="showContent('services', this)">Services</li>
+            <li onclick="showContent('contact', this)">Contact</li>
+            <li onclick="showContent('help', this)">Help</li>
+          </ul>
+        </nav>
+  
+        <main id="main-content">
+          <!-- Empty, content loads from JS -->
+        </main>
+      </div>
+    </div>
+  
+    <script src="responsive_sideba/script.js"></script>
+  </body>
+</html>
