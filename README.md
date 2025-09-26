@@ -5,7 +5,7 @@ A basic, responsive web layout featuring a dynamic sidebar menu and a main conte
 ## ✨ Live Preview
 
 You can see a live demonstration of this project here:
-[**View Demo**](https://your-username.github.io/your-repository-name/index.html)
+[**View Demo**](https://niranjan2411.github.io/responsive_sidebar/)
 
 ***
 
